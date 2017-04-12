@@ -34,7 +34,6 @@ os.Mkdir(templatedir, os.FileMode(511))
 }
 
 {
-//os.Create("/Users/christiankewerkopf/cinq/git/go/src/ansibletemplate/ansible-template/.kitchen.yml")
 os.Create(templatedir + "/defaults/main.yml")
 os.Create(templatedir + "/handlers/main.yml")
 os.Create(templatedir + "/meta/main.yml")
